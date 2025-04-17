@@ -1,18 +1,1 @@
-[global]
-keyboard = "en-us"
-country = "hu"
-fqdn = "node1.cyberszaki.hu"
-mailto = "cyberszaki@gmail.com"
-timezone = "Europe/Budapest"
-root_password = "Sierra4422!!??"
 
-[network]
-source = "from-answer"
-cidr = "192.168.1.158/24"
-dns = "1.1.1.1"
-gateway = "192.168.1.1"
-filter.ID_NET_NAME_MAC = "*"
-
-[disk-setup]
-filesystem = "xfs"
-filter.ID_MODEL = "*"
